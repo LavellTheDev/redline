@@ -927,8 +927,8 @@ ul + hr{
   width: 30%;
 }
 .banner{
-  background: #FFF;
-  border: 1px solid white;
+  /* background: #FFF;
+  border: 1px solid white; */
   height: 50em;
   max-height: ;
   margin: auto;
@@ -1334,8 +1334,8 @@ ul + hr{
   width: 30%;
 }
 .banner{
-  background: #FFF;
-  border: 1px solid white;
+  /* background: #FFF;
+  border: 1px solid white; */
   height: 50em;
   max-height: ;
   margin: auto;
@@ -1698,7 +1698,7 @@ footer {
   } */
   .redlineLogo{
     height: auto;
-    margin: 13px 8px -33px -34px;
+    margin: 13px 8px -33px -2%;
     width: 33%;
   }
   li > h2{
@@ -2132,8 +2132,8 @@ footer {
     width: 30%;
   }
   .banner{
-    background: #FFF;
-    border: 1px solid white;
+    /* background: #FFF;
+    border: 1px solid white; */
     height: 40em;
     max-height: ;
     margin: auto;
@@ -2537,8 +2537,8 @@ footer {
     width: 30%;
   }
   .banner{
-    background: #FFF;
-    border: 1px solid white;
+    /* background: #FFF;
+    border: 1px solid white; */
     height: 40em;
     max-height: ;
     margin: auto;
@@ -2984,8 +2984,8 @@ footer {
     width: 50%;
   }
   .banner{
-    background: #FFF;
-    border: 1px solid white;
+    /* background: #FFF;
+    border: 1px solid white; */
     height: 25em;
     max-height: ;
     margin: auto;
