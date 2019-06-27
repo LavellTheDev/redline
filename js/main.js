@@ -78,85 +78,9 @@ $(document).ready(function() {
 	faqControl();
 });
 
-//End of FAQ CODE
+////////////////////End of FAQ CODE////////////////////
 
-//Start of MAP
-
-// $(document).ready(function(e) {
-//     $('img[usemap]').rwdImageMaps();
-// });
-
-
-// $(document).ready(function(){
-//
-//   $('.backbay-toggle').on('click', function(){
-//       $('.backbayCard').fadeToggle(1000);
-//   })
-//
-//
-//   $('.beaconhill-toggle').on('click', function(){
-//       $('.beaconhillCard').toggle(1000);
-//   })
-//
-//   $('.cambridge-toggle').on('click', function(){
-//       $('.cambridgeCard').fadeToggle(1000);
-//   })
-//
-//   $('.charlestown-toggle').on('click', function(){
-//       $('.charlestownCard').fadeToggle(1000);
-//   })
-//
-//   $('.dorchester-toggle').on('click', function(){
-//       $('.dorchesterCard').fadeToggle(1000);
-//   })
-//
-//   $('.downtown-toggle').on('click', function(){
-//       $('.downtownCard').fadeToggle(1000);
-//   })
-//
-//   $('.eastboston-toggle').on('click', function(){
-//       $('.eastbostonCard').fadeToggle(1000);
-//   })
-//
-//   $('.fenway-toggle').on('click', function(){
-//       $('.fenwayCard').fadeToggle(1000);
-//   })
-//
-//   $('.jamaicaplain-toggle').on('click', function(){
-//       $('.jamaicaplainCard').fadeToggle(1000);
-//   })
-//
-//   $('.leatherdistrict-toggle').on('click', function(){
-//       $('.leatherdistrictCard').fadeToggle(1000);
-//   })
-//
-//   $('.northend-toggle').on('click', function(){
-//       $('.northendCard').fadeToggle(1000);
-//   })
-//
-//   $('.roxbury-toggle').on('click', function(){
-//       $('.roxburyCard').fadeToggle(1000);
-//   })
-//
-//   $('.seaport-toggle').on('click', function(){
-//       $('.seaportCard').fadeToggle(1000);
-//   })
-//   $('.southboston-toggle').on('click', function(){
-//       $('.southBostonCard').fadeToggle(1000);
-//   })
-//   $('.southend-toggle').on('click', function(){
-//       $('.southEndCard').fadeToggle(1000);
-//   })
-//
-//   $('.westend-toggle').on('click', function(){
-//       $('.westEndCard').fadeToggle(1000);
-//   })
-// });
-// $(document).ready(function(){
-//   $('.mapX-toggle').on('click', function(){
-//       $('.hidden').hide();
-//   });
-// });
+////////////////////Start of MAP//////////////////////
 
 function toggleBackBay(){
    var x = document.getElementById('backbayCard');
@@ -304,7 +228,7 @@ function toggleWestEnd(){
 }
 
 
-//End of map
+/////////////////End of map/////////////////////////
 
 ////////////////start backtotop////////////////////
 
