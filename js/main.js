@@ -281,3 +281,7 @@ for (var i = 0; i < accordians.length; i++) {
     });
   });
 ////////End of Reveal Side Bar//////////////////
+
+$(window).bind("load", function() {
+	$('#movie-area').load('movie.html');
+}); 

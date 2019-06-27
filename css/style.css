@@ -116,6 +116,11 @@ ul + hr{
   margin: -0.9em 0 5em 3%;
   width: 30%;
 }
+#movie-area{
+  background: #000;
+  height: 40em;
+  width: 95%;
+}
 .banner{
   background: transparent;
   border: 1px solid transparent;
