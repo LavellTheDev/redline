@@ -78,6 +78,8 @@ header {
 /*start of targeting the nav*/
 #mainNav{
   margin: 0px 0 4em 0;
+  position: relative;
+  z-index: 100;
 }
 nav{
 }
@@ -109,31 +111,41 @@ a{
   text-decoration: none;
 }
 li a:hover{
-  text-decoration: underline;
+  background: blue;
 }
 
 ul + hr{
   margin: -0.9em 0 5em 3%;
   width: 30%;
 }
-#movie-area{
+/* #movie-area{
   background: #000;
   height: 40em;
   width: 95%;
-}
+} */
 .banner{
   background: transparent;
   border: 1px solid transparent;
-  height: 40em;
+  /* height: 40em; */
   max-height: ;
   margin: auto;
-  width: 95%;
+  width: 100vw;
   max-width: ;
 }
 video{
   height: auto;
-  margin: -1px 0 0 0%;
-  width: 100%;
+  margin: -13em 0 0 0;
+  position: absolute;
+  width: 100vw;
+  z-index: -100;
+}
+h2.videoTextOverlay {
+    position: absolute;
+    font-size: 6vw;
+    width: 55%;
+    text-align: center;
+    margin: 125px 0 0 25%;
+    font-weight: initial;
 }
 /**********************************************/
 /********BEGINNING OF BACK TO TOP BUTTON*******/
@@ -151,6 +163,7 @@ video{
 /*********************************************/
 /*******END OF BACK TO TOP BUTTON*************/
 /*********************************************/
+
 .mainBlogButton{/*For now there is no blog*/
   border: none;
   display: none;
@@ -167,8 +180,8 @@ includes up until hit us up on instagram */
   border: 1px solid transparent;
   height: 248em;/*Might make this 220*/
   max-height:320em ;
-  margin: 30em auto;
-  width: 95%;
+  margin: 5em auto;
+  width: 100vw;
   max-width: ;
 }
 /*****************************************
@@ -179,36 +192,37 @@ also the blog button*********************
 ******************************************
 *******************************************/
 .topFloor{
-  border: 0.555em solid #262626;
+  /* border: 0.555em solid #262626; */
   float: left;
-  margin: -4em 0 0 5%;
+  margin: -7.5em 0 0 18%;
 }
 .titleBorderTop{
-  border: .5em solid grey;
+  /* border: .5em solid grey; */
   height: 9em;
-  margin: 8em 0 0 2%;
-  width: 20%;
+  margin: 6em 0 0 2%;
+  /* width: 20%; */
 }
 .topFloorTypeface{
   color: #000;
-  font-size: 2.5em;
+  font-size: 2em;
   margin: 0.5em 0 0 26%;
-  width: 100%;
+  width: 50%;
 }
 .topFloor + p{
   float: right;
-  margin: 0.5em 5% 0 0;
+  margin: -7.5em 0 0 18%;
+  width: 25%;
 }
 /*************targeting basementscene*/
 .topBasement{
-  border: 0.555em solid #262626;
+  /* border: 0.555em solid #262626; */
   margin: -3em 0 0 0;
 }
 .titleBorderBottom{
-  border: .5em solid grey;
+  /* border: .5em solid grey; */
   height: 9em;
   margin: 30em 0 0 75%;
-  width: 20%;
+  /* width: 20%; */
 }
 .topBasementTypeface{/*Targets basement scene typeface only*/
   color: #000;
@@ -291,6 +305,9 @@ img + h2 {
   font-size: 4.5em;
   width: 45%;
 }
+#instafeed{
+  margin: 0 0 0 9%;
+}
 .moreButton{
   background-color: #FFF;
   border: .3em solid #8f8f8f;
@@ -306,6 +323,8 @@ h2{
 }
 p{
   color: #000;
+  font-size: 2vw;
+  margin: 0 0 0 1%
 }
 .faqContact{
   background: #262626;
@@ -371,6 +390,10 @@ margin-right: 10px;
   font-weight: 800;
   margin: 1.2em 0 0 -51%;
 }
+.socialLinks{
+  margin: 0 0 0 18%;
+  width: 80%;
+}
 a > img{/*the social media links and images*/
 margin: 0.5em 0 0 2.5%;
 width: 12%;
@@ -399,7 +422,7 @@ width: 12%;
 #submit{
   background: none;
   border: none;
-  color: #FFF;
+  color: #262626;
   font-size: 1.3em;
   font-weight: 700;
   margin: 1.3em 0 0 50%;
@@ -425,7 +448,10 @@ h4 + img{
   width: 5%;
 }
 footer {
-
+  background-color: #262626;
+  border: 1px solid #262626;
+  height: 25em;
+  width: 100%;
 }
 
 /*******************************************/
@@ -461,1206 +487,23 @@ footer {
    }
 }
 @media (min-width: 1641px) and (max-width: 1780px){
-  body {
-     background-color: #262626;
-     color: #FFF;
-     font-size: 12px;
-     font-family: Futura,Helvetica, Arial, sans-serif;
-     height: 320em;
-     line-height: 1.4;
-}
-
-
-/*******************************************/
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
-}
-
-header {
-
-}
-/*start of targeting the nav*/
-#mainNav{
-
-}
-nav{
-}
-
-/* .fixed-nav nav{
-  position: fixed;
-  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
-} */
-.redlineLogo{
-  height: auto;
-  margin: 13px 8px -33px -34px;
-  width: 33%;
-}
-li > h2{
-  color: #fbffb9;
-  letter-spacing: 3px;
-  font-size: 1.5em;
-  margin: 0 0 -1em -0.5%;
-}
-.homeMove{
-  /*used to move the nav bar*/
-  margin: 0 0 0 50%;
-}
-div > li{
-  display: inline;
-  font-size: 1.5em;
-  list-style-type: none;
-  margin: 0 0 0 1.65%;
-  overflow: hidden;
-  padding: 0;
-  width: 100%;
-}
-a{
-  color: #FFF;
-  text-decoration: none;
-}
-li a:hover{
-  text-decoration: underline;
-}
-.hiddenDesktop{
-  display: none;
-}
-/*End of targeting the Nav*/
-ul + hr{
-  margin: -0.9em 0 5em 2%;
-  width: 30%;
-}
-.banner{
-  background: transparent;
-  border: 1px solid transparent;
-  height: 50em;
-  max-height: ;
-  margin: auto;
-  width: 95%;
-  max-width: ;
-}
-.mainBlogButton{
-  border: none;
-  font-size: 1.6em;
-  font-weight: 700;
-  height: 2.8em;
-  margin: 2em 0 -1em 58%;
-  width: 35%;
-}
-/* Everything that falls under the main content section
-includes up until hit us up on instagram */
-.mainContent{
-  background: #FFF;
-  border: 1px solid transparent;
-  height: 339em;/*Might make this 220*/
-  max-height:350em ;
-  margin: 25em auto;
-  width: 95%;
-  max-width: ;
-}
-/*****************************************
-******************************************
-Start of Targets the about section of the website
-this includes topfloor and basement scene
-also the blog button*********************
-******************************************
-*******************************************/
-.topFloor{
-  border: 0.555em solid #262626;
-  float: left;
-  margin: -3.5em 0 0 6%;
-  width: 43%;
-}
-.titleBorderTop{
-  border: .5em solid grey;
-  height: 10em;
-  margin: 12em 0 0 2%;
-  width: 18%;
-}
-.topFloorTypeface{
-  color: #000;
-  font-size: 2.5em;
-  margin: 0.666em 0 0 8%;
-  outline: none;
-  width: 127%;
-}
-.topFloor + p{
-  float: right;
-  margin: 0.5em 3% 0 0;
-}
-/*************targeting basementscene*/
-.topBasement{
-  border: 0.555em solid #262626;
-  margin: -3em 0 -2.22em 0;
-  width: 43%;
-}
-.titleBorderBottom{
-  border: .5em solid grey;
-  height: 10em;
-  margin: 30em 0 0 80%;
-  width: 18%;
-}
-.topBasementTypeface{/*Targets basement scene typeface only*/
-  color: #000;
-  font-size: 2.8em;
-  font-weight: 800;
-  margin: 0.666em 0 2.5em -36%;
-}
-img + p {
-  float: left;
-  font-size: 1.4em;
-  margin: 0 2% 0 5%;
-  width: 44%;
-}
-.blogButton{
-  background-color: #262626;
-  border: none;
-  clear: both;
-  color: #FFF;
-  float: left;
-  font-size: 1.2em;
-  font-weight: 600;
-  height: 3.8em;
-  margin: 0em 0 0 17%;
-  width: 13%;
-}
-/*****************************************
-******************************************
-END of Targets the about section of the website
-this includes topfloor and basement scene
-also the blog button*********************
-******************************************
-*******************************************/
-
-
-/*****************************************
-******************************************
-Start of targeting h2 "All about Location"
-******************************************
-*******************************************/
-.mainContent > h2{
-  color: #000;
-  font-size: 4.5em;
-  outline: none;
-  position: relative;
-  top: 56px;
-  left: 0%;
-  text-align: left;
-  width: 30%;
-}
-.img-fluid{
-  display: inline;
-  float: left;
-  margin: 30px 0 0 0;
-  padding-left: 4.4%;
-  width: auto;
-  height: 255px;
-}
-.instaimg img:hover{
-  opacity: 0.5;
-  -moz-opacity: 0.5;
-  -webkit-opacity: 0.5;
-}
-button + h2{
-  color: #000;
-  font-size: 4.5em;
-  margin: 1em 0 0 70%;
-  width: 25%;
-}
-/*****************************************
-******************************************
-end of targeting h2 "All about Location"
-******************************************
-*******************************************/
-.interactiveMap{
-  height: auto;
-  width: 100%;
-}
-.mapCards{
-  width: 30%;
-  position: absolute;
-  left:2.1%;
-  top:2250px;
-  z-index: 100;
-}
-.hidden{
-  display: none;
-}
-.accordianMenu{
-  display: none;
-}
-.instagramCarsoul{
-  background: #262626;
-  border: 1px solid black;
-  height: 440px;
-  margin: auto;
-  width: 98%;
-}
-img + h2 {
-  color: #000;
-  font-size: 4.5em;
-  width: 45%;
-}
-.moreButton{
-  background-color: #FFF;
-  border: .3em solid #8f8f8f;
-  font-size: 1.8em;
-  font-weight: 800;
-  height: 2.8em;
-  margin: 30px 0 0 44%;
-  width: 10%;
-}
-
-h2{
-  color: #FFF;
-}
-p{
-  color: #000;
-}
-.faqContact{
-  background: #262626;
-  border: 1px solid transparent;
-  height: 60em;
-  max-height: 285em;
-  margin: 8em 0 0 -0.1em;
-  width: 100.1%;
-}
-.headers{
-  border: 1px solid transparent;
-  font-size: 4.5em;
-  font-weight: 800;
-  margin: 5px 0 -30px 0;
-  height: 2em;
-  width: 100%s
-}
-#faq{
-  outline: none;
-}
-.contactHeader{
-  margin: 0 0 0 33%;
-}
-.contactHeaderTwo{
-  text-align: left;
-}
-.hiddenContact{
-  display: none;
-}
-/* .contactHeaderTwo span{
-  color: red;
-} */
-.faq{
-  border: 1px solid transparent;
-  float: left;
-  font-size: 1.5em;
-  height: 30em;
-  overflow-x: auto;
-  width: 48%
-}
-ol > li{
-  display: block;
-  margin: 24px 0 0 0;
-  overflow: hidden;
-  padding: 5px;
-}
-/***********************************/
-/***********STarts the *************/
-/***********Faq Page ***************/
-/***********Jquery Code*************/
-li.q{
-  cursor: default;
-  font-size: 1em;
-}
-li.a{
-  font-size: 1.1em;
-  font-weight: 300;
-  margin: 0 0 0 0;
-}
-li.q::before{
-content: attr(data-icon);
-margin-right: 10px;
-}
-/* li.q:hover{
-  text-decoration: underline;
-} */
-
-/***********************************/
-/***********Ends the *************/
-/***********Faq Page ***************/
-/***********Jquery Code*************/
-.socialMedia{
-  color: #fff;
-  font-size: 3.2em;
-  font-weight: 800;
-  margin: 1em 0 0 -56%;
-}
-a > img{/*the social media links and images*/
-margin: 0.5em 0 0 2.5%;
-width: 12%;
-}
-
-.contact{
-  border: 1px solid transparent;
-  float: left;
-  height: 35em;
-  margin: 0 0 0 2.5%;
-  width: 48%
-}
-.emailHover:hover{
-  color: grey;
-}
-/* #fname{
-  height: 2.5em;
-  width: 30%;
-}
-#lname{
-  height: 2.5em;
-  margin: 0 0 0 5%;
-  width: 30%;
-}
-#subject{
-  margin: 13px 0 0 0%;
-  width: 66.5%;
-}
-#submit{
-  background: none;
-  border: none;
-  color: #FFF;
-  font-size: 1.3em;
-  font-weight: 700;
-  margin: 1.3em 0 0 50%;
-} */
-h4{
-  color: #000;
-  font-size: 1.2em;
-  margin: 0 0 0 0;
-  text-align: center;
-}
-.topEho{
-  font-weight: 400;
-  margin: 2.5em 0 0.5em 0;
-}
-.bottomEho{
-  font-weight: 400;
-  margin: 0.5em 0 0 0;
-}
-h4 + img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 5%;
-}
-footer {
-
-}
 
 }
 @media (min-width: 1421px) and (max-width: 1640px){
-  body {
-     background-color: #262626;
-     color: #FFF;
-     font-size: 12px;
-     font-family: Futura,Helvetica, Arial, sans-serif;
-     height: 320em;
-     line-height: 1.4;
-}
-
-
-/*******************************************/
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
-}
-
-header {
 
 }
-/*start of targeting the nav*/
-#mainNav{
-
-}
-nav{
-}
-
-/* .fixed-nav nav{
-  position: fixed;
-  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
-} */
-.redlineLogo{
-  height: auto;
-  margin: 13px 8px -33px -34px;
-  width: 33%;
-}
-li > h2{
-  color: teal;
-  letter-spacing: 3px;
-  font-size: 1.5em;
-  margin: 0 0 -1em -0.5%;
-}
-.homeMove{
-  /*used to move the nav bar*/
-  margin: 0 0 0 50%;
-}
-div > li{
-  display: inline;
-  font-size: 1.5em;
-  list-style-type: none;
-  margin: 0 0 0 1.65%;
-  overflow: hidden;
-  padding: 0;
-  width: 100%;
-}
-a{
-  color: #FFF;
-  text-decoration: none;
-}
-li a:hover{
-  text-decoration: underline;
-}
-.hiddenDesktop{
-  display: none;
-}
-/*End of targeting the Nav*/
-ul + hr{
-  margin: -0.9em 0 5em 2.75%;
-  width: 30%;
-}
-.banner{
-  /* background: #FFF;
-  border: 1px solid white; */
-  height: 50em;
-  max-height: ;
-  margin: auto;
-  width: 95%;
-  max-width: ;
-}
-.mainBlogButton{
-  border: none;
-  font-size: 1.6em;
-  font-weight: 700;
-  height: 2.8em;
-  margin: 2em 0 -1em 58%;
-  width: 35%;
-}
-/* Everything that falls under the main content section
-includes up until hit us up on instagram */
-.mainContent{
-  background: #FFF;
-  border: 1px solid transparent;
-  height: 315em;/*Might make this 220*/
-  max-height:320em ;
-  margin: 10em auto;
-  width: 95%;
-  max-width: ;
-}
-/*****************************************
-******************************************
-Start of Targets the about section of the website
-this includes topfloor and basement scene
-also the blog button*********************
-******************************************
-*******************************************/
-.topFloor{
-  border: 0.555em solid #262626;
-  float: left;
-  margin: -3.5em 0 0 6%;
-  width: 43%;
-}
-.titleBorderTop{
-  border: .5em solid grey;
-  height: 10em;
-  margin: 12em 0 0 2%;
-  width: 18%;
-}
-.topFloorTypeface{
-  color: #000;
-  font-size: 2.5em;
-  margin: 0.666em 0 0 8%;
-  outline: none;
-  width: 127%;
-}
-.topFloor + p{
-  float: right;
-  margin: 0.5em 3% 0 0;
-}
-/*************targeting basementscene*/
-.topBasement{
-  border: 0.555em solid #262626;
-  margin: -3em 0 -2.22em 0;
-  width: 43%;
-}
-.titleBorderBottom{
-  border: .5em solid grey;
-  height: 10em;
-  margin: 26em 0 0 80%;
-  width: 18%;
-}
-.topBasementTypeface{/*Targets basement scene typeface only*/
-  color: #000;
-  font-size: 2.5em;
-  font-weight: 800;
-  margin: 0.666em 0 2.5em -36%;
-}
-img + p {
-  float: left;
-  font-size: 1.4em;
-  margin: 0 2% 0 5%;
-  width: 44%;
-}
-.blogButton{
-  background-color: #262626;
-  border: none;
-  clear: both;
-  color: #FFF;
-  float: left;
-  font-size: 1.2em;
-  font-weight: 600;
-  height: 3.8em;
-  margin: 0em 0 0 17%;
-  width: 13%;
-}
-/*****************************************
-******************************************
-END of Targets the about section of the website
-this includes topfloor and basement scene
-also the blog button*********************
-******************************************
-*******************************************/
-
-
-/*****************************************
-******************************************
-Start of targeting h2 "All about Location"
-******************************************
-*******************************************/
-.mainContent > h2{
-  color: #000;
-  font-size: 4.5em;
-  outline: none;
-  position: relative;
-  top: 56px;
-  left: 0%;
-  text-align: left;
-  width: 30%;
-}
-.img-fluid{
-  display: inline;
-  float: left;
-  margin: 30px 0 0 0;
-  padding-left: 4.4%;
-  width: auto;
-  height: 222px;
-}
-.instaimg img:hover{
-  opacity: 0.5;
-  -moz-opacity: 0.5;
-  -webkit-opacity: 0.5;
-}
-button + h2{
-  color: #000;
-  font-size: 4.5em;
-  margin: 1em 0 0 70%;
-  width: 25%;
-}
-/*****************************************
-******************************************
-end of targeting h2 "All about Location"
-******************************************
-*******************************************/
-.interactiveMap{
-  height: auto;
-  width: 100%;
-}
-.mapCards{
-  width: 30%;
-  position: absolute;
-  left:2.1%;
-  top:2250px;
-  z-index: 100;
-}
-.hidden{
-  display: none;
-}
-.accordianMenu{
-  display: none;
-}
-.instagramCarsoul{
-  background: #262626;
-  border: 1px solid black;
-  height: 440px;
-  margin: auto;
-  width: 98%;
-}
-img + h2 {
-  color: #000;
-  font-size: 4.5em;
-  width: 45%;
-}
-.moreButton{
-  background-color: #FFF;
-  border: .3em solid #8f8f8f;
-  font-size: 1.8em;
-  font-weight: 800;
-  height: 2.8em;
-  margin: 15px 0 0 44%;
-  width: 10%;
-}
-
-h2{
-  color: #FFF;
-}
-p{
-  color: #000;
-}
-.faqContact{
-  background: #262626;
-  border: 1px solid transparent;
-  height: 60em;
-  max-height: 285em;
-  margin: 8em 0 0 -0.1em;
-  width: 100.1%;
-}
-.headers{
-  border: 1px solid transparent;
-  font-size: 4.5em;
-  font-weight: 800;
-  margin: 5px 0 -30px 0;
-  height: 2em;
-  width: 100%s
-}
-#faq{
-  outline: none;
-}
-.contactHeader{
-  margin: 0 0 0 33%;
-}
-.contactHeaderTwo{
-  text-align: left;
-}
-.hiddenContact{
-  display: none;
-}
-/* .contactHeaderTwo span{
-  color: red;
-} */
-.faq{
-  border: 1px solid transparent;
-  float: left;
-  font-size: 1.5em;
-  height: 30em;
-  overflow-x: auto;
-  width: 48%
-}
-ol > li{
-  display: block;
-  margin: 24px 0 0 0;
-  overflow: hidden;
-  padding: 5px;
-}
-/***********************************/
-/***********STarts the *************/
-/***********Faq Page ***************/
-/***********Jquery Code*************/
-li.q{
-  cursor: default;
-  font-size: 1em;
-}
-li.a{
-  font-size: 1.1em;
-  font-weight: 300;
-  margin: 0 0 0 0;
-}
-li.q::before{
-content: attr(data-icon);
-margin-right: 10px;
-}
-/* li.q:hover{
-  text-decoration: underline;
-} */
-
-/***********************************/
-/***********Ends the *************/
-/***********Faq Page ***************/
-/***********Jquery Code*************/
-.socialMedia{
-  color: #fff;
-  font-size: 3.2em;
-  font-weight: 800;
-  margin: 1.2em 0 0 -45%;
-}
-a > img{/*the social media links and images*/
-margin: 0.5em 0 0 2.5%;
-width: 12%;
-}
-
-.contact{
-  border: 1px solid transparent;
-  float: left;
-  height: 35em;
-  margin: 0 0 0 2.5%;
-  width: 48%
-}
-.emailHover:hover{
-  color: grey;
-}
-/* #fname{
-  height: 2.5em;
-  width: 30%;
-}
-#lname{
-  height: 2.5em;
-  margin: 0 0 0 5%;
-  width: 30%;
-}
-#subject{
-  margin: 13px 0 0 0%;
-  width: 66.5%;
-}
-#submit{
-  background: none;
-  border: none;
-  color: #FFF;
-  font-size: 1.3em;
-  font-weight: 700;
-  margin: 1.3em 0 0 50%;
-} */
-h4{
-  color: #000;
-  font-size: 1.2em;
-  margin: 0 0 0 0;
-  text-align: center;
-}
-.topEho{
-  font-weight: 400;
-  margin: 2.5em 0 0.5em 0;
-}
-.bottomEho{
-  font-weight: 400;
-  margin: 0.5em 0 0 0;
-}
-h4 + img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 5%;
-}
-footer {
-
-}
-
 /*
   ##Device = Desktops Chrome
   ##Screen = 1281px to higher resolution desktops
 */
 
-}
+
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) and (max-width: 1420px) {
-  body {
-     background-color: #262626;
-     color: #FFF;
-     font-size: 12px;
-     font-family: Futura,Helvetica, Arial, sans-serif;
-     height: 320em;
-     line-height: 1.4;
-}
 
-
-/*******************************************/
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
-}
-
-header {
-
-}
-/*start of targeting the nav*/
-#mainNav{
-
-}
-nav{
-}
-
-/* .fixed-nav nav{
-  position: fixed;
-  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
-} */
-.redlineLogo{
-  height: auto;
-  margin: 13px 8px -33px -34px;
-  width: 33%;
-}
-li > h2{
-  color: teal;
-  letter-spacing: 3px;
-  font-size: 1.5em;
-  margin: 0 0 -1em -0.5%;
-}
-.homeMove{
-  /*used to move the nav bar*/
-  margin: 0 0 0 50%;
-}
-div > li{
-  display: inline;
-  font-size: 1.5em;
-  list-style-type: none;
-  margin: 0 0 0 1.65%;
-  overflow: hidden;
-  padding: 0;
-  width: 100%;
-}
-a{
-  color: #FFF;
-  text-decoration: none;
-}
-li a:hover{
-  text-decoration: underline;
-}
-.hiddenDesktop{
-  display: none;
-}
-/*End of targeting the Nav*/
-ul + hr{
-  margin: -0.9em 0 5em 2.75%;
-  width: 30%;
-}
-.banner{
-  /* background: #FFF;
-  border: 1px solid white; */
-  height: 50em;
-  max-height: ;
-  margin: auto;
-  width: 95%;
-  max-width: ;
-}
-.mainBlogButton{
-  border: none;
-  font-size: 1.6em;
-  font-weight: 700;
-  height: 2.8em;
-  margin: 2em 0 -1em 58%;
-  width: 35%;
-}
-/* Everything that falls under the main content section
-includes up until hit us up on instagram */
-.mainContent{
-  background: #FFF;
-  border: 1px solid transparent;
-  height: 303em;/*Might make this 220*/
-  max-height:320em ;
-  margin: 10em auto;
-  width: 95%;
-  max-width: ;
-}
-/*****************************************
-******************************************
-Start of Targets the about section of the website
-this includes topfloor and basement scene
-also the blog button*********************
-******************************************
-*******************************************/
-.topFloor{
-  border: 0.555em solid #262626;
-  float: left;
-  margin: -3.5em 0 0 6%;
-  width: 43%;
-}
-.titleBorderTop{
-  border: .5em solid grey;
-  height: 10em;
-  margin: 12em 0 0 2%;
-  width: 18%;
-}
-.topFloorTypeface{
-  color: #000;
-  font-size: 2.5em;
-  margin: 0.666em 0 0 8%;
-  outline: none;
-  width: 127%;
-}
-.topFloor + p{
-  float: right;
-  margin: 0.5em 3% 0 0;
-}
-/*************targeting basementscene*/
-.topBasement{
-  border: 0.555em solid #262626;
-  margin: -3em 0 -2.22em 0;
-  width: 43%;
-}
-.titleBorderBottom{
-  border: .5em solid grey;
-  height: 10em;
-  margin: 26em 0 0 80%;
-  width: 18%;
-}
-.topBasementTypeface{/*Targets basement scene typeface only*/
-  color: #000;
-  font-size: 2.5em;
-  font-weight: 800;
-  margin: 0.666em 0 2.5em -36%;
-}
-img + p {
-  float: left;
-  font-size: 1.4em;
-  margin: 0 2% 0 5%;
-  width: 44%;
-}
-.blogButton{
-  background-color: #262626;
-  border: none;
-  clear: both;
-  color: #FFF;
-  float: left;
-  font-size: 1.2em;
-  font-weight: 600;
-  height: 3.8em;
-  margin: 0em 0 0 17%;
-  width: 13%;
-}
-/*****************************************
-******************************************
-END of Targets the about section of the website
-this includes topfloor and basement scene
-also the blog button*********************
-******************************************
-*******************************************/
-
-
-/*****************************************
-******************************************
-Start of targeting h2 "All about Location"
-******************************************
-*******************************************/
-.mainContent > h2{
-  color: #000;
-  font-size: 4.5em;
-  outline: none;
-  position: relative;
-  top: 56px;
-  left: 0%;
-  text-align: left;
-  width: 30%;
-}
-.img-fluid{
-  display: inline;
-  float: left;
-  margin: 30px 0 0 0;
-  padding-left: 3%;
-  width: auto;
-  height: 222px;
-}
-.instaimg img:hover{
-  opacity: 0.5;
-  -moz-opacity: 0.5;
-  -webkit-opacity: 0.5;
-}
-button + h2{
-  color: #000;
-  font-size: 4.5em;
-  margin: 1em 0 0 70%;
-  width: 25%;
-}
-/*****************************************
-******************************************
-end of targeting h2 "All about Location"
-******************************************
-*******************************************/
-.interactiveMap{
-  height: 550px;
-  width: 100%;
-}
-.mapCards{
-  width: 30%;
-  position: absolute;
-  left:2.1%;
-  top:2170px;
-  z-index: 100;
-}
-.hidden{
-  display: none;
-}
-.accordianMenu{
-  display: none;
-}
-.instagramCarsoul{
-  background: #262626;
-  border: 1px solid black;
-  height: 440px;
-  margin: auto;
-  width: 98%;
-}
-img + h2 {
-  color: #000;
-  font-size: 4.5em;
-  width: 45%;
-}
-.moreButton{
-  background-color: #FFF;
-  border: .3em solid #8f8f8f;
-  font-size: 1.8em;
-  font-weight: 800;
-  height: 2.8em;
-  margin: 15px 0 0 44%;
-  width: 10%;
-}
-
-h2{
-  color: #FFF;
-}
-p{
-  color: #000;
-}
-.faqContact{
-  background: #262626;
-  border: 1px solid transparent;
-  height: 60em;
-  max-height: 285em;
-  margin: 8em 0 0 -0.1em;
-  width: 100.1%;
-}
-.headers{
-  border: 1px solid transparent;
-  font-size: 4.5em;
-  font-weight: 800;
-  margin: 5px 0 -30px 0;
-  height: 2em;
-  width: 100%s
-}
-#faq{
-  outline: none;
-}
-.contactHeader{
-  margin: 0 0 0 33%;
-}
-.contactHeaderTwo{
-  text-align: left;
-}
-.hiddenContact{
-  display: none;
-}
-/* .contactHeaderTwo span{
-  color: red;
-} */
-.faq{
-  border: 1px solid transparent;
-  float: left;
-  font-size: 1.5em;
-  height: 30em;
-  overflow-x: auto;
-  width: 48%
-}
-ol > li{
-  display: block;
-  margin: 24px 0 0 0;
-  overflow: hidden;
-  padding: 5px;
-}
-/***********************************/
-/***********STarts the *************/
-/***********Faq Page ***************/
-/***********Jquery Code*************/
-li.q{
-  cursor: default;
-  font-size: 1em;
-}
-li.a{
-  font-size: 1.1em;
-  font-weight: 300;
-  margin: 0 0 0 0;
-}
-li.q::before{
-content: attr(data-icon);
-margin-right: 10px;
-}
-/* li.q:hover{
-  text-decoration: underline;
-} */
-
-/***********************************/
-/***********Ends the *************/
-/***********Faq Page ***************/
-/***********Jquery Code*************/
-.socialMedia{
-  color: #fff;
-  font-size: 3.2em;
-  font-weight: 800;
-  margin: 1.2em 0 0 -45%;
-}
-a > img{/*the social media links and images*/
-margin: 0.5em 0 0 2.5%;
-width: 12%;
-}
-
-.contact{
-  border: 1px solid transparent;
-  float: left;
-  height: 35em;
-  margin: 0 0 0 2.5%;
-  width: 48%
-}
-.emailHover:hover{
-  color: grey;
-}
-/* #fname{
-  height: 2.5em;
-  width: 30%;
-}
-#lname{
-  height: 2.5em;
-  margin: 0 0 0 5%;
-  width: 30%;
-}
-#subject{
-  margin: 13px 0 0 0%;
-  width: 66.5%;
-}
-#submit{
-  background: none;
-  border: none;
-  color: #FFF;
-  font-size: 1.3em;
-  font-weight: 700;
-  margin: 1.3em 0 0 50%;
-} */
-h4{
-  color: #000;
-  font-size: 1.2em;
-  margin: 0 0 0 0;
-  text-align: center;
-}
-.topEho{
-  font-weight: 400;
-  margin: 2.5em 0 0.5em 0;
-}
-.bottomEho{
-  font-weight: 400;
-  margin: 0.5em 0 0 0;
-}
-h4 + img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 5%;
-}
-footer {
-
-}
 }
 
 /*
@@ -1669,8 +512,8 @@ footer {
 */
 @media (min-width: 1141px) and (max-width: 1280px) {
   body {
-       background-color: #262626;
-       color: #FFF;
+       background-color: #FFF;
+       color: #262626;
        font-size: 12px;
        font-family: Futura,Helvetica, Arial, sans-serif;
        height: 320em;
@@ -1730,7 +573,7 @@ footer {
     text-decoration: none;
   }
   li a:hover{
-    text-decoration: underline;
+    background: blue;
   }
   .hiddenDesktop{
     display: none;
@@ -1746,7 +589,7 @@ footer {
     height: 40em;
     max-height: ;
     margin: auto;
-    width: 95%;
+    width: 100vw;
     max-width: ;
   }
   .mainBlogButton{
@@ -1762,10 +605,10 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 294em;/*Might make this 220*/
+    height: 257em;/*Might make this 220*/
     max-height:320em ;
-    margin: 25em auto;
-    width: 95%;
+    margin: 10em auto;
+    width: 100vw;
     max-width: ;
   }
   /*****************************************
@@ -1776,51 +619,54 @@ footer {
   ******************************************
   *******************************************/
   .topFloor{
-    border: 0.555em solid #262626;
+    /* border: 0.555em solid #262626; */
     float: left;
-    margin: -3.5em 0 0 6%;
-    width: 43%;
+    margin: -7.5em 0 0 18%;
+    width: 35%;
   }
   .titleBorderTop{
-    border: .5em solid grey;
+    /* border: .5em solid grey; */
     height: 9em;
-    margin: 12em 0 0 2%;
-    width: 20%;
+    margin: 6em 0 0 2%;
+    /* width: 20%; */
   }
   .topFloorTypeface{
     color: #000;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0.55em 0 0 8%;
     outline: none;
-    width: 128%;
+    width: 50%;
   }
   .topFloor + p{
     float: right;
-    margin: 0.5em 3% 0 0;
+    margin: -5em 18% 0 0;
+    width: 25%;
   }
   /*************targeting basementscene*/
   .topBasement{
-    border: 0.555em solid #262626;
-    margin: -3em 0 -2.22em 0;
-    width: 43%;
+    /* border: 0.555em solid #262626; */
+    margin: -17em 0 -2.22em 0;
+    width: 35%;
+    z-index: -100;
   }
   .titleBorderBottom{
-    border: .5em solid grey;
+    /* border: .5em solid grey; */
     height: 9em;
     margin: 26em 0 0 77%;
-    width: 20%;
+    /* width: 20%; */
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 800;
-    margin: 0.5em 0 2.5em -36%;
+    margin: 3.5em 0 5.5em 4%;
+    position: absolute;
   }
   img + p {
     float: left;
-    font-size: 1.4em;
-    margin: 0 2% 0 5%;
-    width: 44%;
+    font-size: 1.2em;
+    margin: -11em 6% 0 22%;
+    width: 25%;
   }
   .blogButton{
     background-color: #262626;
@@ -1861,10 +707,13 @@ footer {
   .img-fluid{
     display: inline;
     float: left;
-    height: 185px;
+    height: 250px;
     margin: 30px 0 0 0;
-    padding-left: 5%;
-    width: auto;
+    padding-left: 3%;
+    width: 220px;
+  }
+  .container{
+    margin: 0 0 0 0;
   }
   .instaimg img:hover{
     opacity: 0.5;
@@ -1889,8 +738,8 @@ footer {
   .mapCards{
     width: 30%;
     position: absolute;
-    left:2.1%;
-    top:2185px;
+    left:0%;
+    top:1750px;
     z-index: 100;
   }
   .hidden{
@@ -1922,13 +771,15 @@ footer {
   }
 
   h2{
-    color: #FFF;
+    color: grey;
   }
   p{
     color: #000;
+    font-size: 2vw;
+    margin: 0 0 0 1%
   }
   .faqContact{
-    background: #262626;
+    background: #fff;
     border: 1px solid transparent;
     height: 60em;
     max-height: 285em;
@@ -1944,6 +795,7 @@ footer {
     width: 100%s
   }
   #faq{
+    margin: 0 -8% 0 12%;
     outline: none;
   }
   .contactHeader{
@@ -1963,8 +815,9 @@ footer {
     float: left;
     font-size: 1.5em;
     height: 30em;
+    margin: 0 4% 0 5%;
     overflow-x: auto;
-    width: 48%
+    width: 40%
   }
   ol > li{
     display: block;
@@ -1998,14 +851,14 @@ footer {
   /***********Faq Page ***************/
   /***********Jquery Code*************/
   .socialMedia{
-    color: #fff;
+    color: #262626;
     font-size: 3.2em;
     font-weight: 800;
-    margin: 1.2em 0 0 -45%;
+    margin: 1.2em 0 0 -17%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
-  width: 12%;
+  width: 15%;
   }
 
   .contact{
@@ -2143,7 +996,7 @@ footer {
     height: 40em;
     max-height: ;
     margin: auto;
-    width: 95%;
+    width: 100vw;
     max-width: ;
   }
   .mainBlogButton{
@@ -2162,7 +1015,7 @@ footer {
     height: 281em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
-    width: 95%;
+    width: 100vw;
     max-width: ;
   }
   /*****************************************
@@ -2175,37 +1028,38 @@ footer {
   .topFloor{
     border: 0.555em solid #262626;
     float: left;
-    margin: -3.5em 0 0 6%;
-    width: 43%;
+    margin: -7.5em 0 0 18%;
+    width: 35%;
   }
   .titleBorderTop{
-    border: .5em solid grey;
+    /* border: .5em solid grey; */
     height: 9em;
-    margin: 12em 0 0 2%;
-    width: 20%;
+    margin: 6em 0 0 2%;
+    /* width: 20%; */
   }
   .topFloorTypeface{
     color: #000;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0.55em 0 0 8%;
     outline: none;
-    width: 135%;
+    width: 50%;
   }
   .topFloor + p{
     float: right;
     margin: 0.5em 3% 0 0;
+    width: 25%;
   }
   /*************targeting basementscene*/
   .topBasement{
     border: 0.555em solid #262626;
     margin: -3em 0 -2.22em 0;
-    width: 43%;
+    width: 35%;
   }
   .titleBorderBottom{
-    border: .5em solid grey;
+    /* border: .5em solid grey; */
     height: 9em;
     margin: 26em 0 0 77%;
-    width: 20%;
+    /* width: 20%; */
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
@@ -2326,6 +1180,8 @@ footer {
   }
   p{
     color: #000;
+    font-size: 2vw;
+    margin: 0 0 0 1%
   }
   .faqContact{
     background: #262626;
@@ -2548,7 +1404,7 @@ footer {
     height: 40em;
     max-height: ;
     margin: auto;
-    width: 95%;
+    width: 100vw;
     max-width: ;
   }
   .mainBlogButton{
@@ -2567,7 +1423,7 @@ footer {
     height: 284em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
-    width: 95%;
+    width: 100vw;
     max-width: ;
   }
   /*****************************************
@@ -2580,26 +1436,26 @@ footer {
   .topFloor{
     border: 0.555em solid #262626;
     float: left;
-    margin: -4.5em 0 0 8%;
-    width: 45%;
+    margin: -7.5em 0 0 18%;
+    width: 35%;
   }
   .titleBorderTop{
     border: .5em solid grey;
     height: 9em;
-    margin: 12em 0 0 2%;
+    margin: 6em 0 0 2%;
     width: 29%;
   }
   .topFloorTypeface{
     color: #000;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0.55em 0 0 8%;
     outline: none;
-    width: 135%;
+    width: 50%;
   }
   .topFloor + p{
     float: right;
     margin: 1.5em 2% 0 0;
-    width: 90%;
+    width: 25%;
   }
   /*************targeting basementscene*/
   .topBasement{
@@ -2732,6 +1588,8 @@ footer {
   }
   p{
     color: #000;
+    font-size: 2vw;
+    margin: 0 0 0 1%
   }
   .faqContact{
     background: #262626;
@@ -2995,7 +1853,7 @@ footer {
     height: 25em;
     max-height: ;
     margin: auto;
-    width: 95%;
+    width: 100vw;
     max-width: ;
   }
   .mainBlogButton{
@@ -3014,7 +1872,7 @@ footer {
     height: 300em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
-    width: 95%;
+    width: 100vw;
     max-width: ;
   }
   /*****************************************
@@ -3027,8 +1885,8 @@ footer {
   .topFloor{
     border: 0.555em solid #262626;
     float: left;
-    margin: -4em 0 0 11%;
-    width: 75%;
+    margin: -7.5em 0 0 18%;
+    width: 35%;
   }
   .titleBorderTop{
     border: .5em solid grey;
@@ -3040,12 +1898,12 @@ footer {
     color: #000;
     font-size: 2em;
     margin: 0.2em 0 0 4%;
-    width: 166%;
+    width: 50%;
   }
   .topFloor + p{
     float: left;
     margin: 10px auto;
-    width: 100%
+    width: 25%
   }
   /*************targeting basementscene*/
   .topBasement{
@@ -3253,6 +2111,8 @@ footer {
   }
   p{
     color: #000;
+    font-size: 2vw;
+    margin: 0 0 0 1%
   }
   .faqContact{
     background: #262626;
@@ -3323,7 +2183,7 @@ footer {
     color: #fff;
     font-size: 2.5em;
     font-weight: 800;
-    margin: 1em 0 0 -17%;
+    margin: 1em 0 0 -43%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;

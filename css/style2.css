@@ -48,8 +48,8 @@ Date (completed):
 /*******************************************/
 
 body {
-     background-color: #262626;
-     color: #FFF;
+     background-color: #FFF;
+     color: #000;
      font-size: 12px;
      font-family: Futura,Helvetica, Arial, sans-serif;
      height: 120em;
@@ -65,24 +65,28 @@ body {
 /******Nav*****/
 /**************/
 .redlineLogo{
+  border: 1px solid black;
   height: auto;
   width: 33%;
 }
 
 ul{/*This is targeting both Nav & Footer, becareful*/
-  color: white;
+  color: #000;
   font-size: 1.5em;
   list-style-type: none;
 }
 a{
   text-decoration: none;
-  color: white;
+  color: #000;
 }
 /**************/
 /******Nav*****/
 /**************/
 #mainContent{
-  background: #FFF;
-  border: 1px solid #FFF;
+  border: 1px solid #000;
   height: 800px;
+}
+footer{
+  border: 1px solid #000;
+  height: 400px;
 }
