@@ -633,6 +633,7 @@ footer {
   .topFloorTypeface{
     color: #000;
     font-size: 2em;
+    font-weight: initial;
     margin: 0.55em 0 0 8%;
     outline: none;
     width: 50%;
@@ -658,7 +659,7 @@ footer {
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
     font-size: 2em;
-    font-weight: 800;
+    font-weight: lighter;
     margin: 3.5em 0 5.5em 4%;
     position: absolute;
   }
@@ -697,10 +698,11 @@ footer {
   .mainContent > h2{
     color: #000;
     font-size: 4em;
+    font-weight: lighter;
     outline: none;
     position: relative;
-    top: 56px;
-    left: 0%;
+    top: 91px;
+    left: 1%;
     text-align: left;
     width: 30%;
   }
@@ -771,7 +773,7 @@ footer {
   }
 
   h2{
-    color: grey;
+    color: #FFF;
   }
   p{
     color: #000;
@@ -789,19 +791,20 @@ footer {
   .headers{
     border: 1px solid transparent;
     font-size: 4.5em;
-    font-weight: 800;
+    font-weight: lighter;
     margin: 5px 0 -30px 0;
     height: 2em;
     width: 100%s
   }
   #faq{
-    margin: 0 -8% 0 12%;
+    margin: 0 -3% 0 9%;
     outline: none;
   }
   .contactHeader{
     margin: 0 0 0 32%;
   }
   .contactHeaderTwo{
+    color: #262626;
     text-align: left;
   }
   .hiddenContact{
@@ -853,7 +856,7 @@ footer {
   .socialMedia{
     color: #262626;
     font-size: 3.2em;
-    font-weight: 800;
+    font-weight: lighter;
     margin: 1.2em 0 0 -17%;
   }
   a > img{/*the social media links and images*/
