@@ -428,7 +428,7 @@ width: 12%;
   margin: 1.3em 0 0 50%;
 }
 h4{
-  color: #000;
+  color: #FFF;
   font-size: 1.2em;
   margin: 0 0 0 0;
   text-align: center;
@@ -454,10 +454,22 @@ footer {
   width: 100%;
 }
 .footer1{
-  border: 1px solid white;
-  height: 10em;
+  border: 1px solid transparent;
+  color: #fff;
+  height: 20em;
   width: 45%;
   float: left;
+}
+.redlineLogoFooter{
+  width: 70%;
+  height: auto;
+  margin: 89px 0 0 0;
+}
+.footer1 > ul > li{
+  display: block;
+  font-size: 1.25em;
+  margin: 7px 0 0 10%;
+  text-align: left;
 }
 .footer2{
   border: 1px solid transparent;
@@ -487,13 +499,18 @@ footer {
   margin: 5px 0 0 0;
   width: 13%;
 }
-.footer3{
-  border: 1px solid white;
-  height: 10em;
+.footerThree{
+  border: 1px solid transparent;
+  height: 20em;
   width: 34%;
   float: left;
 }
-
+.linksHrThree{
+  background: #fff;
+  height: 1.5px;
+  margin: 5px 0 0 0;
+  width: 13%;
+}
 /*******************************************/
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -898,6 +915,7 @@ footer {
     font-size: 3.2em;
     font-weight: lighter;
     margin: 1.2em 0 0 -17%;
+    text-align: center;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
@@ -935,11 +953,13 @@ footer {
     font-weight: 700;
     margin: 1.3em 0 0 50%;
   } */
-  h4{
-    color: #000;
-    font-size: 1.2em;
-    margin: 0 0 0 0;
-    text-align: center;
+  h4{ /*This is targeting the Blog link which is fine since it may not stay.*/
+    color: #FFF;
+    font-size: 1.7em;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 35px 0 0 0;
+    text-align: left;
   }
   .topEho{
     font-weight: 400;
