@@ -284,4 +284,4 @@ for (var i = 0; i < accordians.length; i++) {
 
 $(window).bind("load", function() {
 	$('#movie-area').load('movie.html');
-}); 
+});
