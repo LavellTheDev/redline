@@ -453,6 +453,46 @@ footer {
   height: 25em;
   width: 100%;
 }
+.footer1{
+  border: 1px solid white;
+  height: 10em;
+  width: 45%;
+  float: left;
+}
+.footer2{
+  border: 1px solid transparent;
+  color: #fff;
+  float: left;
+  height: 20em;
+  width: 20%;
+}
+.footer2 > h4{
+  color: #fff;
+  font-size: 1.7em;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin: 35px 0 0 0;
+  text-align: left;
+
+}
+.footer2 > ul > li{
+  display: block;
+  font-size: 1.25em;
+  margin: 7px 0 0 -18%;
+  text-align: left;
+}
+.linksHr{
+  background: #fff;
+  height: 1.5px;
+  margin: 5px 0 0 0;
+  width: 13%;
+}
+.footer3{
+  border: 1px solid white;
+  height: 10em;
+  width: 34%;
+  float: left;
+}
 
 /*******************************************/
 /* ADDITIONAL STYLES
