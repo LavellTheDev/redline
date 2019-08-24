@@ -522,12 +522,12 @@
 					<h2 class="contactHeaderTwo"><span>call or text us:</span>&nbsp;&nbsp;617.702.4600</h2>
 					<h2 class="contactHeaderTwo"><span>slide into our dm:</span>&nbsp;&nbsp;@redlinebrokers</h2>
 					<h2 class="contactHeaderTwo"><span>call/text not your thing?</span>&nbsp;&nbsp; <a href="mailto:thecrew@redlnebrokers.com ?subject= &body="><span class="emailHover">email us</span></a></h2>
-					<div class="container">
- 	 					<form action="contactform.php" method="post">
+					<div class="contactForm">
+ 	 					<form id="contactForm" method="post" action="contactform.php">
 
-	 						<label for="fname"></label>
+	 						<label for="fname">
 		 					<input type="text" id="fname" name="firstname" placeholder="Your name..">
-
+							</label>
 	 						<label for="lname"></label>
 	 						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
@@ -537,7 +537,6 @@
 	 						<input  id="submit" type="submit" value="send message">
 
  					</form>
-				</div>
 				</div>
 			</section>
 			<!-- <h4 class="topEho">All Property Information Obtained From MLS</h4>
