@@ -416,6 +416,12 @@ width: 12%;
   width: 30%;
 }
 #subject{
+  height: 2.5em;
+  margin: 13px 0 0 0%;
+  width: 66.5%;
+}
+#message{
+  height: 15em;
   margin: 13px 0 0 0%;
   width: 66.5%;
 }
