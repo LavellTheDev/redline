@@ -408,30 +408,32 @@ width: 12%;
 }
 #fname{
   height: 2.5em;
-  width: 30%;
+  width: 25%;
 }
 #lname{
   height: 2.5em;
   margin: 0 0 0 5%;
-  width: 30%;
+  width: 25%;
 }
 #subject{
   height: 2.5em;
   margin: 13px 0 0 0%;
-  width: 66.5%;
+  width: 54%;
 }
 #message{
   height: 15em;
   margin: 13px 0 0 0%;
-  width: 66.5%;
+  width: 55%;
 }
 #submit{
-  background: none;
-  border: none;
-  color: #262626;
+  background: #262626;
+  border: 1px solid #262626;
+  color: #FFF;
   font-size: 1.3em;
   font-weight: 700;
-  margin: 1.3em 0 0 50%;
+  height: 2.5em;
+  margin: 1.3em 0 0 0%;
+  width: 56%;
 }
 h4{
   color: #FFF;
@@ -654,6 +656,9 @@ footer {
     margin: auto;
     width: 100vw;
     max-width: ;
+  }
+  .hiddenVideoStill{
+    display: none;
   }
   .mainBlogButton{
     border: none;
@@ -1819,8 +1824,8 @@ footer {
 */
 @media (min-width: 320px) and (max-width: 480px) {
   body {
-       background-color: #262626;
-       color: #FFF;
+       background-color: #FFF;
+       color: #262626;
        font-size: 12px;
        font-family: Futura,Helvetica, Arial, sans-serif;
        height: 320em;
@@ -1885,6 +1890,9 @@ footer {
   /* .sidebar{
     display: block;
   } */
+  .fa.fa-bars{
+    color: #000;
+  }
   .sidebar{
     background: grey;
     display: none;
@@ -1908,13 +1916,18 @@ footer {
     color: #FFF;
     text-decoration: none;
   }
-  /* li a:hover{
-    text-decoration: underline;
-  } */
   /*End of targeting the Nav*/
   ul + hr{
     margin: -0.9em 0 5em 3%;
     width: 50%;
+  }
+  .hiddenVideo{
+    display: none;
+  }
+  .hiddenVideoStill{
+    height: auto;
+    margin: 0 0 0 10.5%;
+    width: 80vw;
   }
   .banner{
     /* background: #FFF;
@@ -1924,6 +1937,10 @@ footer {
     margin: auto;
     width: 100vw;
     max-width: ;
+  }
+  h2.videoTextOverlay{
+    margin: 8em 0 0 25%;
+    text-shadow: 2px 2px darkgray;
   }
   .mainBlogButton{
     border: none;
@@ -1952,36 +1969,33 @@ footer {
   ******************************************
   *******************************************/
   .topFloor{
-    border: 0.555em solid #262626;
     float: left;
-    margin: -7.5em 0 0 18%;
-    width: 35%;
+    margin: -4.9em 0 0 10%;
+    width: 80vw;
   }
   .titleBorderTop{
-    border: .5em solid grey;
     height: 7em;
     margin: 5em 0 0 3%;
-    width: 44%;
+    width: 80%;
   }
   .topFloorTypeface{
     color: #000;
-    font-size: 2em;
-    margin: 0.2em 0 0 4%;
-    width: 50%;
+    font-size: 1.8em;
+    font-weight: lighter;
+    margin: 1.2em 0 0 5%;
+    width: 58%;
   }
   .topFloor + p{
     float: left;
-    margin: 10px auto;
-    width: 25%
+    margin: 26px 0 0 6%;
+    width: 90%
   }
   /*************targeting basementscene*/
   .topBasement{
-    border: 0.555em solid #262626;
-    margin: -4em 0 0 9%;
-    width: 75%;
+    margin: -3em 0 0 9%;
+    width: 80vw;
   }
   .titleBorderBottom{
-    border: .5em solid grey;
     height: 7em;
     margin: 35em 0 0 48.5%;
     width: 44%;
@@ -1989,14 +2003,19 @@ footer {
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
     font-size: 2em;
-    font-weight: 800;
-    margin: 0.2em 0 2.5em -58%;
+    font-weight: lighter;
+    margin: 18.2em 0 6.5em 10%;
+    position: relative;
+    top: 291px;
+  }
+  .topBasement + p{
+
   }
   img + p {
     float: left;
     font-size: 1.3em;
-    margin: 10px auto;
-    width: 100%;
+    margin: 33px 0 0 6%;
+    width: 90%;
   }
   .blogButton{
     background-color: #262626;
@@ -2027,11 +2046,12 @@ footer {
   .mainContent > h2{
     color: #000;
     font-size: 3.5em;
-    margin: 290px 0 0 0;
+    font-weight: 100;
+    margin: 206px 0 30px 49%;
     position: relative;
     top: 56px;
     text-align: left;
-    width: 95%;
+    width: 50%;
   }
 
   button + h2{
@@ -2110,7 +2130,9 @@ footer {
     color: white;
   }
 
-
+.accordianMenu h1{ /* Should Target Choose your hood */
+  color: #fff
+}
   .accordianPanel{
     border-left: 1px solid whitesmoke;
     border-right: 1px solid whitesmoke;
@@ -2134,7 +2156,10 @@ footer {
   /* Ending the Accordian Code  */
   /* Ending the Accordian Code  */
   #social{
-    margin: 0 0 2em 0;
+    margin: 0 0 2em 2%;
+  }
+  #instafeed{
+    margin: 0 0 0 3.5%;
   }
   img + h2 {
     color: #000;
@@ -2144,9 +2169,11 @@ footer {
   .img-fluid{
     display: inline;
     float: left;
-    margin-bottom: 25px;
+    height: 40vw;
+    margin: 13px 0 0 0;
     padding-left: 0.7%;
-    width: 21%;
+    width: 30vw;
+
   }
   .instagramApiMobileSection{
     border: 1px solid transparent;
@@ -2176,7 +2203,7 @@ footer {
   }
 
   h2{
-    color: #FFF;
+    color: #262626;
   }
   p{
     color: #000;
@@ -2184,7 +2211,7 @@ footer {
     margin: 0 0 0 1%
   }
   .faqContact{
-    background: #262626;
+    background: #FFF;
     border: 1px solid transparent;
     height: 65em;
     max-height: 285em;
@@ -2194,7 +2221,7 @@ footer {
   .headers{
     border: 1px solid transparent;
     font-size: 3.5em;
-    font-weight: 800;
+    font-weight: lighter;
     margin: 5px 0 -30px 0;
     height: 2em;
     width: 100%s
@@ -2249,10 +2276,10 @@ footer {
   /***********Faq Page ***************/
   /***********Jquery Code*************/
   .socialMedia{
-    color: #fff;
+    color: #262626;
     font-size: 2.5em;
-    font-weight: 800;
-    margin: 1em 0 0 -43%;
+    font-weight: lighter;
+    margin: 1em 0 0 -53%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
@@ -2268,51 +2295,39 @@ footer {
   }
   .contact > h1{
     font-size: 3.5em;
-    font-weight: 800;
+    font-weight: lighter;
     margin: -60px 0 0 0;
   }
   .emailHover:hover{
     color: grey;
   }
-  /* #fname{
-    display: none;
-    height: 2.5em;
-    width: 30%;
+  #fname{
+    margin: 0 0 0 10%;
+    width: 33%
   }
   #lname{
-    display: none;
-    height: 2.5em;
-    margin: 0 0 0 5%;
-    width: 30%;
+    margin: 0 0 0 5.5%;
+    width: 33%;
+  }
+  #message{
+    margin: 13px 0 0 10%;
+    width: 75%;
   }
   #subject{
-    display: none;
-    margin: 13px 0 0 0%;
-    width: 66.5%;
+    margin: 13px 0 0 10%;
+    width: 74%;
   }
   #submit{
-    background: none;
-    border: none;
-    color: #FFF;
-    display: none;
-    font-size: 1.3em;
-    font-weight: 700;
-    margin: 1.3em 0 0 50%;
-  } */
+    margin: 1.3em 0 0 10%;
+    width: 75.5%;
+  }
   h4{
     color: #000;
     font-size: 1.2em;
     margin: 0 0 0 0;
     text-align: center;
   }
-  .topEho{
-    font-weight: 400;
-    margin: 2.5em 0 0.5em 0;
-  }
-  .bottomEho{
-    font-weight: 400;
-    margin: 0.5em 0 0 0;
-  }
+
   h4 + img{
     display: block;
     margin-left: auto;
@@ -2320,7 +2335,34 @@ footer {
     width: 11%;
   }
   footer {
-
+  height: 50em;
   }
-
+  .footer1{
+    height: 10em;
+    margin: 0 0 0 -17%;
+    width: 100%;
+  }
+  .redlineLogoFooter{
+    margin: 0.5em 0 0 0;
+    width: 90%
+  }
+  .footer1 > ul > li{
+    margin: 0.5em 0 0 18%;
+  }
+  .footer2{
+    width: 100%
+  }
+  .footer2 > h4{
+    margin: 0 0 0 8%;
+  }
+  .linksHr{
+    margin: 0 0 0 8%;
+    width: 5%;
+  }
+  .footer2 > ul > li{
+    margin: 7px 0 0 0%;
+  }
+  .footer2 > h4{
+    margin: 1em 0 0 8%;
+  }
 }
