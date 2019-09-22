@@ -767,7 +767,7 @@ footer {
     top: 91px;
     left: 1%;
     text-align: left;
-    width: 30%;
+    width: 28%;
   }
   .img-fluid{
     display: inline;
@@ -1775,11 +1775,8 @@ footer {
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-
-
 }
-@media (min-width: 480px)and (max-width:768px){
-
+@media (min-width: 690px)and (max-width:730px){
   /* Center the container */
 
 
@@ -1895,8 +1892,8 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 300em;/*Might make this 220*/
-    max-height:320em ;
+    height: 350em;/*Might make this 220*/
+    max-height:360em ;
     margin: 10em auto;
     width: 100vw;
     max-width: ;
@@ -1945,9 +1942,9 @@ footer {
     color: #000;
     font-size: 2.2em;
     font-weight: lighter;
-    margin: 18.2em 0 6.5em 3%;
+    margin: 18.7em 0 6.5em 16%;
     position: absolute;
-    top: 38.1em;
+    /* top: 38.1em; */
   }
   .topBasement + p{
 
@@ -1987,13 +1984,13 @@ footer {
   *******************************************/
   .mainContent > h2{
     color: #000;
-    font-size: 3.5em;
+    font-size: 3.2em;
     font-weight: 100;
-    margin: 206px 0 30px 49%;
+    margin: 206px 0 25px 68%;
     position: relative;
     top: 56px;
     text-align: left;
-    width: 50%;
+    width: 29%;
   }
 
   button + h2{
@@ -2122,7 +2119,556 @@ footer {
   }
   .instagramApiMobileSection{
     border: 1px solid transparent;
-    height: 27em;
+    height: 50.5em;
+    overflow: hidden;
+  }
+  .instaimg img:hover{
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+  }
+  /* .instagramCarsoul{
+    background: #262626;
+    border: 1px solid #262626;
+    height:300px;
+    margin: 50px 0 -35 0;
+    width: 300px;
+  } */
+  .moreButton{
+    background-color: #FFF;
+    border: .3em solid #8f8f8f;
+    font-size: 1.6em;
+    font-weight: 800;
+    height: 2.5em;
+    margin: 20px 0 0 35%;
+    width: 26%;
+  }
+
+  h2{
+    color: #262626;
+  }
+  p{
+    color: #000;
+    font-size: 5vw;
+    letter-spacing: 1.2px;
+    margin: -2em 0 0 1%;
+    width: 90%;
+  }
+  .faqContact{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 65em;
+    max-height: 285em;
+    margin: 10em 0 0 -0.1em;
+    width: 100.1%;
+  }
+  .headers{
+    border: 1px solid transparent;
+    font-size: 3.5em;
+    font-weight: lighter;
+    margin: 5px 0 -30px 0%;
+    height: 2em;
+    width: 100%s
+  }
+  .contactHeader{
+    display: none;
+    margin: 0 0 0 -49%;
+    position: absolute;
+    top: 2994px;
+    width: 94%;
+  }
+  .faq{
+    border: 1px solid transparent;
+    float: left;
+    font-size: 1.5em;
+    height: 17em;
+    overflow-x: auto;
+    width: 100%
+  }
+  {/*this targets h2 for get in touch*/
+
+  }
+  ol > li{
+    display: block;
+    margin: 24px 0 0 0;
+    overflow: hidden;
+    padding: 5px;
+  }
+  /***********************************/
+  /***********STarts the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  li.q{
+    cursor: default;
+    font-size: 1em;
+  }
+  li.a{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin: 0 0 0 0;
+  }
+  li.q::before{
+  content: attr(data-icon);
+  margin-right: 10px;
+  }
+  /* li.q:hover{
+    text-decoration: underline;
+  } */
+
+  /***********************************/
+  /***********Ends the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  .socialMedia{
+    color: #262626;
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin: 1em 0 0 -65%;
+  }
+  .socialLinks{
+    margin: 0 0 0 32%;
+    width: 40%;
+  }
+  a > img{/*the social media links and images*/
+  margin: 0.5em 0 0 2.5%;
+  width: 20%;
+  }
+
+  .contact{
+    border: 1px solid transparent;
+    float: left;
+    height: 35em;
+    margin: 75px 0 -60px 0%;
+    width: 100%
+  }
+  .contact > h1{
+    font-size: 3.5em;
+    font-weight: lighter;
+    margin: -60px 0 0 0%;
+  }
+  .emailHover:hover{
+    color: grey;
+  }
+  #fname{
+    margin: 0 0 0 10%;
+    width: 33%
+  }
+  #lname{
+    margin: 0 0 0 5.5%;
+    width: 33%;
+  }
+  #message{
+    margin: 13px 0 0 10%;
+    width: 75%;
+  }
+  #subject{
+    margin: 13px 0 0 10%;
+    width: 74%;
+  }
+  #submit{
+    margin: 1.3em 0 0 10%;
+    width: 75.5%;
+  }
+  h4{
+    /* color: #000; */
+    font-size: 1.7em;
+    font-weight: lighter;
+    margin: 0 0 0 -6%;
+    text-align: center;
+  }
+
+  h4 + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+  }
+  footer {
+  height: 35em;
+  }
+  .footer1{
+    height: 10em;
+    margin: 0 0 0 -17%;
+    width: 100%;
+  }
+  .redlineLogoFooter{
+    margin: 0.5em 0 0 0;
+    width: 75%
+  }
+  .footer1 > ul > li{
+    margin: 0.5em 0 0 18%;
+  }
+  .footer2{
+    width: 100%
+  }
+  .footer2 > h4{
+    margin: 0 0 0 8%;
+  }
+  .linksHr{
+    margin: 0 0 0 5%;
+    width: 5%;
+  }
+  .footer2 > ul > li{
+    margin: 7px 0 0 0%;
+  }
+  .footer2 > h4{
+    margin: 1em 0 0 5%;
+  }
+  .footerThree{
+    width: 12%;
+  }
+  .linksHrThree{
+    background: #FFF;
+    height: 1px;
+    margin: 5px 0 0 -5%;
+    width: 70%;
+  }
+}
+@media (min-width: 480px)and (max-width:530px){
+
+  /* Center the container */
+
+
+  header {
+
+  }
+  /*start of targeting the nav*/
+  #mainNav{
+
+  }
+  nav{
+  }
+  .navLink{
+    padding: 0 0 0 0;
+  }
+
+  /* .fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  } */
+  .redlineLogo{
+    height: 21px;
+    margin: 28px 8px -4px 1%;
+    width: auto;
+  }
+  li > h2{
+    color: pink;
+    letter-spacing: 3px;
+    margin: 0 0 -6px 2%;
+    width: 95%;
+  }
+  .homeMove{
+    /*used to move the nav bar*/
+    margin: 0 0 0 0;
+  }
+  .hiddenDesktop{
+    margin: 0 0 0 90%;
+    position: absolute;
+    top: 20px;
+    width: 10%;
+  }
+  /*Hides original nav links*/
+  .hiddenMobile{
+    /* display: none; */
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+  }
+  /* .sidebar{
+    display: block;
+  } */
+  .fa.fa-bars{
+    color: #000;
+  }
+  .sidebar{
+    background: grey;
+    display: none;
+    font-size: 1.5em;
+    margin: 0 0 0 0%;
+    padding: 5px 15px;
+    position: absolute;
+    width: 50%;
+    z-index: 100;
+  }
+  ul > li{
+    display: block;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 0 0 1.25%;
+    overflow: hidden;
+    padding: 0;
+    width: 95%;
+  }
+  a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  /*End of targeting the Nav*/
+  ul + hr{
+    margin: -0.9em 0 5em 3%;
+    width: 50%;
+  }
+  .hiddenVideo{
+    display: none;
+  }
+  .hiddenVideoStill{
+    height: auto;
+    margin: 0 0 0 10.5%;
+    width: 80vw;
+  }
+  .banner{
+    /* background: #FFF;
+    border: 1px solid white; */
+    height: 25em;
+    max-height: ;
+    margin: auto;
+    width: 100vw;
+    max-width: ;
+  }
+  h2.videoTextOverlay{
+    color: #FFF;
+    margin: 8em 0 0 25%;
+    text-shadow: 2px 2px darkgray;
+  }
+  .mainBlogButton{
+    border: none;
+    font-size: 1.4em;
+    font-weight: 700;
+    height: 2.6em;
+    margin: 2em 0 -1em 12%;
+    width: 75%;
+  }
+  /* Everything that falls under the main content section
+  includes up until hit us up on instagram */
+  .mainContent{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 320em;/*Might make this 220*/
+    max-height:325em ;
+    margin: 10em auto;
+    width: 100vw;
+    max-width: ;
+  }
+  /*****************************************
+  ******************************************
+  Start of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+  .topFloor{
+    float: left;
+    margin: -4.9em 0 0 10%;
+    width: 80vw;
+  }
+  .titleBorderTop{
+    height: 7em;
+    margin: 5em 0 0 3%;
+    width: 80%;
+  }
+  .topFloorTypeface{
+    color: #000;
+    font-size: 2.2em;
+    font-weight: lighter;
+    margin: 1.2em 0 0 5%;
+    width: 58%;
+  }
+  .topFloor + p{
+    float: left;
+    margin: 26px 0 0 11%;
+    text-align: left;
+    width: 80%
+  }
+  /*************targeting basementscene*/
+  .topBasement{
+    margin: 3em 0 0 10%;
+    width: 80vw;
+  }
+  .titleBorderBottom{
+    height: 7em;
+    margin: 35em 0 0 48.5%;
+    width: 44%;
+  }
+  .topBasementTypeface{/*Targets basement scene typeface only*/
+    color: #000;
+    font-size: 2.2em;
+    font-weight: lighter;
+    margin: 14.7em 0 6.5em 5%;
+    position: absolute;
+    /* top: 38.1em; */
+  }
+  .topBasement + p{
+
+  }
+  img + p {
+    float: left;
+    font-size: 1.4em;
+    margin: 2.75em 0 0 11%;
+    text-align: left;
+    width: 80%;
+  }
+  .blogButton{
+    background-color: #262626;
+    border: none;
+    clear: both;
+    color: #FFF;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 3.6em;
+    margin: 1em 0 0 30%;
+    width: 35%;
+  }
+  /*****************************************
+  ******************************************
+  END of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+
+
+  /*****************************************
+  ******************************************
+  Start of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .mainContent > h2{
+    color: #000;
+    font-size: 3.5em;
+    font-weight: 100;
+    margin: 206px 0 30px 55%;
+    position: relative;
+    top: 56px;
+    text-align: left;
+    width: 45%;
+  }
+
+  button + h2{
+    color: #000;
+    font-size: 4.5em;
+    margin: 1em 0 0 70%;
+    width: 25%;
+  }
+  /*****************************************
+  ******************************************
+  end of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .mapContainer{
+    width: auto;
+  }
+  .interactiveMap{
+    height: 325px;
+    width: 100%;
+  }
+  .mapCards{
+    width: 30%;
+    position: absolute;
+    left:2.1%;
+    top:2100px;
+    z-index: 100;
+  }
+  .hidden{
+    display: none;
+  }
+  /* Starting the Accordian Code */
+  /* Starting the Accordian Code */
+  /* Starting the Accordian Code */
+  /* Starting the Accordian Code */
+  /* Starting the Accordian Code */
+  .accordianMenu{
+    background: #262626;
+    border: 1px solid #262626;
+    margin: 15px auto;
+    /* max-height: 400px; */
+    max-width: 600px;
+    /* overflow: scroll; */
+    width: 99%;
+  }
+
+  button.accordian{
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    padding: 15px 20px;
+    text-align: left;
+    transition: background-color 0.2s linear;
+    width: 100%;
+  }
+
+  .accordianScroll{
+  max-height: 400px;
+  overflow: scroll;
+  }
+
+  button.accordian::after{
+    content: '\f055';
+    float: right;
+    font-family: "fontawesome";
+    font-size: 14px;
+  }
+
+  button.accordian.is-open:after{
+    content: '\f056'
+  }
+
+  button.accordian:hover{
+    background-color: #262626;
+    color: white;
+  }
+
+  .accordianMenu h1{ /* Should Target Choose your hood */
+  color: #fff
+  }
+  .accordianPanel{
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    transition: max-height 0.2s ease-in-out;
+  }
+  .accordianImage{
+    width: 100%;
+  }
+  h3{
+    color:#fff;
+  }
+  .panelFont{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 1.2em;
+  }
+
+  /* Ending the Accordian Code  */
+  /* Ending the Accordian Code  */
+  /* Ending the Accordian Code  */
+  /* Ending the Accordian Code  */
+  /* Ending the Accordian Code  */
+  #social{
+    margin: 0 0 .8em 4%;
+  }
+  #instafeed{
+    margin: 0 0 0 3.5%;
+  }
+  img + h2 {
+    color: #000;
+    font-size: 4.5em;
+    width: 45%;
+  }
+  .img-fluid{
+    display: inline;
+    float: left;
+    height: 40vw;
+    margin: 13px 0 0 0;
+    padding-left: 0.7%;
+    width: 30vw;
+
+  }
+  .instagramApiMobileSection{
+    border: 1px solid transparent;
+    height: 35em;
     overflow: hidden;
   }
   .instaimg img:hover{
@@ -2247,7 +2793,7 @@ footer {
   .contact > h1{
     font-size: 3.5em;
     font-weight: lighter;
-    margin: -60px 0 0 4%;
+    margin: -60px 0 0 0%;
   }
   .emailHover:hover{
     color: grey;
@@ -2287,7 +2833,7 @@ footer {
     width: 11%;
   }
   footer {
-  height: 50em;
+  height: 35em;
   }
   .footer1{
     height: 10em;
@@ -2296,7 +2842,7 @@ footer {
   }
   .redlineLogoFooter{
     margin: 0.5em 0 0 0;
-    width: 50%
+    width: 75%
   }
   .footer1 > ul > li{
     margin: 0.5em 0 0 18%;
@@ -2308,14 +2854,14 @@ footer {
     margin: 0 0 0 8%;
   }
   .linksHr{
-    margin: 0 0 0 5%;
+    margin: 0 0 0 8%;
     width: 5%;
   }
   .footer2 > ul > li{
     margin: 7px 0 0 0%;
   }
   .footer2 > h4{
-    margin: 1em 0 0 5%;
+    margin: 1em 0 0 8%;
   }
   .footerThree{
     width: 12%;
@@ -2333,7 +2879,11 @@ footer {
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 370px) and (max-width: 420px) {
+@media (min-width: 420px) and (max-width: 479px) {
+
+}
+
+@media (min-width: 370px) and (max-width: 419px) {
   /*******************************************/
    /* LAYOUT
    /*******************************************/
