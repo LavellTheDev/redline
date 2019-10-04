@@ -1752,6 +1752,8 @@ footer {
 
   }
 }
+
+
 @media (min-width: 1025px) and (max-width: 1140px) {
   /*******************************************/
   /* LAYOUT
@@ -2142,11 +2144,15 @@ footer {
   }
 }
 
-/*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-@media (min-width: 768px) and (max-width: 1024px){
+}
+
+@media (min-width: 837px) and (max-width:1024px){
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 836px){
   /* Center the container */
 
 
@@ -2289,7 +2295,7 @@ footer {
     color: #000;
     font-size: 2.2em;
     font-weight: lighter;
-    margin: 1.2em 0 0 5%;
+    margin: 2.2em 0 0 10%;
     width: 58%;
   }
   .topFloor + p{
@@ -2300,7 +2306,7 @@ footer {
   }
   /*************targeting basementscene*/
   .topBasement{
-    margin: 3em 0 0 22%;
+    margin: 5em 0 0 22%;
     width: 60vw;
   }
   .titleBorderBottom{
@@ -2312,10 +2318,10 @@ footer {
     color: #000;
     font-size: 2.2em;
     font-weight: lighter;
-    margin: 14.7em 0 6.5em 52%;
+    margin: 14.7em 0 6.5em 50%;
     position: relative;
-    top: 11.6em;
-    width: 65%;
+    top: 10.6em;
+    width: 57%;
   }
   .topBasement + p{
 
@@ -2355,7 +2361,7 @@ footer {
   *******************************************/
   .mainContent > h2{
     color: #000;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 100;
     margin: 206px 0 0.2em 63%;
     position: relative;
@@ -2402,7 +2408,7 @@ footer {
     border: 1px solid #262626;
     margin: 15px auto;
     /* max-height: 400px; */
-    max-width: 600px;
+    max-width: 90vw;
     /* overflow: scroll; */
     width: 99%;
   }
@@ -2469,10 +2475,10 @@ footer {
   /* Ending the Accordian Code  */
   /* Ending the Accordian Code  */
   #social{
-    margin: 0 0 .8em 4%;
+    margin: 0 0 .4em 4%;
   }
   #instafeed{
-    margin: 0 0 0 3.5%;
+    margin: 0 0 0 2.5%;
   }
   img + h2 {
     color: #000;
@@ -2482,15 +2488,15 @@ footer {
   .img-fluid{
     display: inline;
     float: left;
-    height: 40vw;
+    height: 30vw;
     margin: 13px 0 0 0;
     padding-left: 0.7%;
-    width: 30vw;
+    width: 23vw;
 
   }
   .instagramApiMobileSection{
     border: 1px solid transparent;
-    height: 53em;
+    height: 55em;
     overflow: hidden;
   }
   .instaimg img:hover{
@@ -2522,7 +2528,7 @@ footer {
     color: #000;
     font-size: 2.5vw;
     letter-spacing: 1.2px;
-    margin: 5.5em 0 0 1%;
+    margin: 10.5em 0 0 1%;
     width: 90%;
   }
   .faqContact{
