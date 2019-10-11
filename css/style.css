@@ -2142,7 +2142,6 @@ footer {
   footer {
 
   }
-}
 
 }
 
@@ -2363,11 +2362,12 @@ footer {
     color: #000;
     font-size: 5vw;
     font-weight: 100;
-    margin: 206px 0 0.2em 63%;
-    position: relative;
-    top: 56px;
+    margin-top: 8em;
+    /* margin: 206px 0 0.2em 62%;
+    position: relative; */
+    /* top: 56px; */
     text-align: left;
-    width: 34%;
+    width: 29%;
   }
 
   button + h2{
