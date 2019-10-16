@@ -1027,6 +1027,9 @@ footer {
     width: 100vw;
     max-width: ;
   }
+  h2.videoTextOverlay{
+    color: #FFF;
+  }
   .mainBlogButton{
     border: none;
     font-size: 1.6em;
@@ -2273,7 +2276,7 @@ footer {
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
-    font-size: 2.3em;
+    font-size: 2.2em;
     font-weight: initial;
     margin: 0.5em 0 2.5em 1%;
     position: relative;
@@ -2324,13 +2327,16 @@ footer {
   #social{
     margin-left: 8.5%;
   }
+  #instafeed{
+    margin-left: 5%;
+  }
   .img-fluid{
     display: inline;
     float: left;
-    height: 160px;
+    height: 175px;
     margin: 30px 0 0 0;
     padding-left: 4.3%;
-    width: auto;
+    width: 150px;
   }
   .instaimg img:hover{
     opacity: 0.5;
@@ -2388,7 +2394,7 @@ footer {
   }
 
   h2{
-    color: #FFF;
+    color: #262626;
   }
   p{
     color: #000;
@@ -2396,7 +2402,7 @@ footer {
     margin: -14em 0 0 1%
   }
   .faqContact{
-    background: #262626;
+    background: #FFF;
     border: 1px solid transparent;
     height: 60em;
     max-height: 285em;
@@ -2415,9 +2421,10 @@ footer {
     outline: none;
   }
   .contactHeader{
-    margin: 0 0 0 30%;
+    margin: 0 0 0 26%;
   }
   .contactHeaderTwo{
+    color: #262626;
     text-align: left;
   }
   .hiddenContact{
@@ -2466,10 +2473,10 @@ footer {
   /***********Faq Page ***************/
   /***********Jquery Code*************/
   .socialMedia{
-    color: #fff;
+    color: #262626;
     font-size: 3.2em;
     font-weight: 800;
-    margin: 1.2em 0 0 -31%;
+    margin: 0em 0 0 -8%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
@@ -2486,19 +2493,28 @@ footer {
   .emailHover:hover{
     color: grey;
   }
-  /* #fname{
+  #fname{
     height: 2.5em;
-    width: 30%;
+    width: 40%;
   }
+
   #lname{
-    height: 2.5em;
-    margin: 0 0 0 5%;
-    width: 30%;
+  height: 2.5em;
+  margin-left: 7%;
+  width: 40%;
   }
+
   #subject{
-    margin: 13px 0 0 0%;
-    width: 66.5%;
+    height: 2.5em;
+    margin-top: 13px;
+    width: 90%;
   }
+  #message{
+    height: 15em;
+    margin-top: 13px;
+    width: 91%;
+  }
+/*
   #submit{
     background: none;
     border: none;
@@ -2532,8 +2548,6 @@ footer {
   }
 
 }
-
-
 
 @media (min-width: 768px) and (max-width: 836px){
   /* Center the container */
