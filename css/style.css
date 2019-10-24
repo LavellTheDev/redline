@@ -2149,6 +2149,421 @@ footer {
 
 @media (min-width: 901px) and (max-width:1024px) {
 
+  body{
+    height: 290em;
+  }
+  header {
+
+  }
+  /*start of targeting the nav*/
+  #mainNav{
+
+  }
+  nav{
+  }
+
+  /* .fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  } */
+  .redlineLogo{
+    height: auto;
+    margin: 13px 8px -33px -34px;
+    width: 33%;
+  }
+  li > h2{
+    color: orange;
+    letter-spacing: 3px;
+    margin: 0 0 -1em -1%;
+  }
+  .homeMove{
+    /*used to move the nav bar*/
+    margin: 0 0 0 44%;
+  }
+  div > li{
+    display: inline;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 0 0 1.65%;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+  }
+  a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  li a:hover{
+    text-decoration: underline;
+  }
+  .hiddenDesktop{
+    display: none;
+  }
+  /*End of targeting the Nav*/
+  ul + hr{
+    margin: -0.9em 0 5em 3%;
+    width: 30%;
+  }
+  .banner{
+    /* background: #FFF;
+    border: 1px solid white; */
+    height: 40em;
+    max-height: ;
+    margin: auto;
+    width: 100vw;
+    max-width: ;
+  }
+  .hiddenVideoStill{
+    display: none;
+  }
+  h2.videoTextOverlay{
+    color: #FFF;
+    margin: 1em 0 0 25%;
+  }
+  .mainBlogButton{
+    border: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    height: 2.8em;
+    margin: 2em 0 -1em 58%;
+    width: 35%;
+  }
+  /* Everything that falls under the main content section
+  includes up until hit us up on instagram */
+  .mainContent{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 230em;/*Might make this 220*/
+    max-height:320em ;
+    margin: 10em auto;
+    width: 100vw;
+    max-width: ;
+  }
+  /*****************************************
+  ******************************************
+  Start of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+  .topFloor{
+    float: left;
+    margin: -6.5em 0 0 10%;
+    width: 40%;
+  }
+  .titleBorderTop{
+    /* border: .5em solid grey; */
+    height: 9em;
+    margin: 6em 0 0 2%;
+    /* width: 20%; */
+  }
+  .topFloorTypeface{
+    color: #000;
+    font-size: 2.3em;
+    font-weight: initial;
+    margin: 0.55em 0 0 0;
+    outline: none;
+    width: 50%;
+  }
+  .topFloor + p{
+    float: right;
+    margin: -4.8em 5% 0 0;
+    width: 40%;
+  }
+  /*************targeting basementscene*/
+  .topBasement{
+    margin: -11em 0 -2.22em 0;
+    width: 40%;
+  }
+  .titleBorderBottom{
+    /* border: .5em solid grey; */
+    height: 9em;
+    margin: 26em 0 0 77%;
+    /* width: 20%; */
+  }
+  .topBasementTypeface{/*Targets basement scene typeface only*/
+    color: #000;
+    font-size: 2.2em;
+    font-weight: initial;
+    margin: 0.5em 0 2.5em 1%;
+    position: relative;
+    top: 5em;
+  }
+  img + p {
+    float: left;
+    font-size: 1.4em;
+    margin: -8em 2% 0 9%;
+    width: 40%;
+  }
+  .blogButton{
+    background-color: #262626;
+    border: none;
+    clear: both;
+    color: #FFF;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 3.8em;
+    margin: 0em 0 0 17%;
+    width: 13%;
+  }
+  /*****************************************
+  ******************************************
+  END of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+
+
+  /*****************************************
+  ******************************************
+  Start of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .mainContent > h2{
+    color: #000;
+    font-size: 5vw;
+    font-weight: initial;
+    outline: none;
+    position: relative;
+    top: 56px;
+    left: -6%;
+    text-align: left;
+    width: 35%;
+  }
+  #social{
+    margin-left: 8.5%;
+  }
+  #instafeed{
+    margin-left: 5%;
+  }
+  .img-fluid{
+    display: inline;
+    float: left;
+    height: 220px;
+    margin: 0.65em 0 0 0;
+    padding-left: 4.3%;
+    width: 18%;
+  }
+  .instaimg img:hover{
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+  }
+  button + h2{
+    color: #000;
+    font-size: 4.5em;
+    margin: 1em 0 0 70%;
+    width: 25%;
+  }
+  /*****************************************
+  ******************************************
+  end of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .interactiveMap{
+    height: 550px;
+    width: 100%;
+  }
+  .mapCards{
+    width: 35%;
+    position: absolute;
+    left:0.1%;
+    top:118em;
+    z-index: 100;
+  }
+  .hidden{
+    display: none;
+  }
+  .accordianMenu{
+    display: none;
+  }
+  .instagramCarsoul{
+    background: #262626;
+    border: 1px solid black;
+    height: 440px;
+    margin: auto;
+    width: 98%;
+  }
+  img + h2 {
+    color: #000;
+    font-size: 4.5em;
+    width: 45%;
+  }
+  .moreButton{
+    background-color: #FFF;
+    border: .3em solid #8f8f8f;
+    font-size: 1.8em;
+    font-weight: 800;
+    height: 2.8em;
+    margin: 25px 0 0 44%;
+    width: 10%;
+  }
+
+  h2{
+    color: #262626;
+  }
+  p{
+    color: #000;
+    font-size: 2vw;
+    margin: -7em 0 0 1%
+  }
+  .faqContact{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 60em;
+    max-height: 285em;
+    margin: 8em 0 0 -0.1em;
+    width: 100.1%;
+  }
+  .headers{
+    border: 1px solid transparent;
+    font-size: 4.5em;
+    font-weight: initial;
+    margin: 5px 0 -30px 0;
+    height: 2em;
+    width: 100%s
+  }
+  #faq{
+    outline: none;
+  }
+  .contactHeader{
+    margin: 0 0 0 34%;
+  }
+  .contactHeaderTwo{
+    color: #262626;
+    text-align: left;
+  }
+  .hiddenContact{
+    display: none;
+  }
+  /* .contactHeaderTwo span{
+    color: red;
+  } */
+  .faq{
+    border: 1px solid transparent;
+    float: left;
+    font-size: 1.5em;
+    height: 30em;
+    overflow-x: auto;
+    width: 48%
+  }
+  ol{
+    padding: 0 0 0 0;
+  }
+  ol > li{
+    display: block;
+    margin: 24px 0 0 0;
+    overflow: hidden;
+    padding: 0 0 0 0;
+  }
+  /***********************************/
+  /***********STarts the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  li.q{
+    cursor: default;
+    font-size: 1em;
+  }
+  li.a{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0 0 0 0;
+  }
+  li.q::before{
+  content: attr(data-icon);
+  margin-right: 10px;
+  }
+  /* li.q:hover{
+    text-decoration: underline;
+  } */
+
+  /***********************************/
+  /***********Ends the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  .socialMedia{
+    color: #262626;
+    font-size: 3.2em;
+    font-weight: initial;
+    margin: 0em 0 0 -8%;
+  }
+  a > img{/*the social media links and images*/
+  margin: 0.5em 0 0 2.5%;
+  width: 20%;
+  }
+  .socialLinks{
+    margin: 0 0 0 20%;
+    width: 65%;
+  }
+  .contact{
+    border: 1px solid transparent;
+    float: left;
+    height: 35em;
+    margin: 0 0 0 2.5%;
+    width: 48%
+  }
+  .emailHover:hover{
+    color: grey;
+  }
+  #fname{
+    height: 2.5em;
+    width: 40%;
+  }
+
+  #lname{
+  height: 2.5em;
+  margin-left: 7%;
+  width: 40%;
+  }
+
+  #subject{
+    height: 2.5em;
+    margin-top: 13px;
+    width: 90%;
+  }
+  #message{
+    height: 15em;
+    margin-top: 13px;
+    width: 91%;
+  }
+  #submit{
+    background: #262626;
+    border: 1px solid #262626;
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 700;
+    height: 2.5em;
+    margin: 1.3em 0 0 0%;
+    width: 92%;
+  }
+  h4{
+    color: #000;
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+  .topEho{
+    font-weight: 400;
+    margin: 2.5em 0 0.5em 0;
+  }
+  .bottomEho{
+    font-weight: 400;
+    margin: 0.5em 0 0 0;
+  }
+  h4 + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+  footer {
+
+  }
+  .footer2 > ul {
+    padding: 0 0 0 2.15em;
+  }
 
 }
 
@@ -2424,16 +2839,16 @@ footer {
   .headers{
     border: 1px solid transparent;
     font-size: 4.5em;
-    font-weight: 800;
+    font-weight: initial;
     margin: 5px 0 -30px 0;
     height: 2em;
     width: 100%s
   }
   #faq{
-    outline: none;
+
   }
   .contactHeader{
-    margin: 0 0 0 26%;
+    margin: 0 0 0 32%;
   }
   .contactHeaderTwo{
     color: #262626;
