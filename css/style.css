@@ -963,7 +963,9 @@ footer {
   ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) and (max-width: 1420px) {
-  /* Center the container */
+  /*******************************************/
+  /* LAYOUT
+  /*******************************************/
 
 
   header {
@@ -982,17 +984,17 @@ footer {
   } */
   .redlineLogo{
     height: auto;
-    margin: 13px 8px -33px -34px;
+    margin: 13px 8px -33px -2%;
     width: 33%;
   }
   li > h2{
-    color: orange;
+    color: pink;
     letter-spacing: 3px;
-    margin: 0 0 -1em -1%;
+    margin: 0 0 -2em -0.5%;
   }
   .homeMove{
     /*used to move the nav bar*/
-    margin: 0 0 0 44%;
+    margin: 0 0 0 50%;
   }
   div > li{
     display: inline;
@@ -1008,27 +1010,30 @@ footer {
     text-decoration: none;
   }
   li a:hover{
-    text-decoration: underline;
+    background: blue;
   }
   .hiddenDesktop{
     display: none;
   }
+  .hiddenDesktopLogo{
+    display: none;
+  }
   /*End of targeting the Nav*/
   ul + hr{
-    margin: -0.9em 0 5em 3%;
+    margin: -0.9em 0 5em 2.6%;
     width: 30%;
   }
   .banner{
-    /* background: #FFF;
-    border: 1px solid white; */
+    background: #transparent;
+    border: 1px solid transparent;
     height: 40em;
     max-height: ;
     margin: auto;
     width: 100vw;
     max-width: ;
   }
-  h2.videoTextOverlay{
-    color: #FFF;
+  .hiddenVideoStill{
+    display: none;
   }
   .mainBlogButton{
     border: none;
@@ -1043,7 +1048,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 281em;/*Might make this 220*/
+    height: 260em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 100vw;
@@ -1057,7 +1062,7 @@ footer {
   ******************************************
   *******************************************/
   .topFloor{
-    border: 0.555em solid #262626;
+    /* border: 0.555em solid #262626; */
     float: left;
     margin: -7.5em 0 0 18%;
     width: 35%;
@@ -1070,21 +1075,23 @@ footer {
   }
   .topFloorTypeface{
     color: #000;
-    font-size: 2em;
+    font-size: 2.3em;
+    font-weight: initial;
     margin: 0.55em 0 0 8%;
     outline: none;
     width: 50%;
   }
   .topFloor + p{
     float: right;
-    margin: 0.5em 3% 0 0;
+    margin: -6.4em 18% 0 0;
     width: 25%;
   }
   /*************targeting basementscene*/
   .topBasement{
-    border: 0.555em solid #262626;
-    margin: -3em 0 -2.22em 0;
+    /* border: 0.555em solid #262626; */
+    margin: -14em 0 -2.22em 0;
     width: 35%;
+    z-index: -100;
   }
   .titleBorderBottom{
     /* border: .5em solid grey; */
@@ -1094,15 +1101,16 @@ footer {
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
-    font-size: 2.5em;
-    font-weight: 800;
-    margin: 0.5em 0 2.5em -36%;
+    font-size: 2.3em;
+    font-weight: lighter;
+    margin: 3.5em 0 5.5em 4%;
+    position: absolute;
   }
   img + p {
     float: left;
-    font-size: 1.4em;
-    margin: 0 2% 0 5%;
-    width: 44%;
+    font-size: 1.2em;
+    margin: -11.8em 6% 0 22%;
+    width: 25%;
   }
   .blogButton{
     background-color: #262626;
@@ -1132,24 +1140,25 @@ footer {
   *******************************************/
   .mainContent > h2{
     color: #000;
-    font-size: 4.2em;
+    font-size: 4em;
+    font-weight: lighter;
     outline: none;
     position: relative;
-    top: 56px;
-    left: -6%;
+    top: 91px;
+    left: 1%;
     text-align: left;
-    width: 35%;
-  }
-  #social{
-    margin-left: 8.5%;
+    width: 28%;
   }
   .img-fluid{
     display: inline;
     float: left;
-    height: 160px;
+    height: 250px;
     margin: 30px 0 0 0;
-    padding-left: 4.3%;
-    width: auto;
+    padding-left: 3%;
+    width: 220px;
+  }
+  .container{
+    margin: 0 0 0 0;
   }
   .instaimg img:hover{
     opacity: 0.5;
@@ -1174,8 +1183,8 @@ footer {
   .mapCards{
     width: 30%;
     position: absolute;
-    left:2.1%;
-    top:2000px;
+    left:0%;
+    top:1760px;
     z-index: 100;
   }
   .hidden{
@@ -1212,10 +1221,11 @@ footer {
   p{
     color: #000;
     font-size: 2vw;
+    letter-spacing: 2px;
     margin: 0 0 0 1%
   }
   .faqContact{
-    background: #262626;
+    background: #fff;
     border: 1px solid transparent;
     height: 60em;
     max-height: 285em;
@@ -1225,18 +1235,20 @@ footer {
   .headers{
     border: 1px solid transparent;
     font-size: 4.5em;
-    font-weight: 800;
+    font-weight: lighter;
     margin: 5px 0 -30px 0;
     height: 2em;
     width: 100%s
   }
   #faq{
+    margin: 0 -3% 0 9%;
     outline: none;
   }
   .contactHeader{
-    margin: 0 0 0 30%;
+    margin: 0 0 0 32%;
   }
   .contactHeaderTwo{
+    color: #262626;
     text-align: left;
   }
   .hiddenContact{
@@ -1250,8 +1262,9 @@ footer {
     float: left;
     font-size: 1.5em;
     height: 30em;
+    margin: 0 4% 0 5%;
     overflow-x: auto;
-    width: 48%
+    width: 40%
   }
   ol > li{
     display: block;
@@ -1285,14 +1298,15 @@ footer {
   /***********Faq Page ***************/
   /***********Jquery Code*************/
   .socialMedia{
-    color: #fff;
+    color: #262626;
     font-size: 3.2em;
-    font-weight: 800;
-    margin: 1.2em 0 0 -31%;
+    font-weight: lighter;
+    margin: 1.2em 0 0 -17%;
+    text-align: center;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
-  width: 12%;
+  width: 15%;
   }
 
   .contact{
@@ -1326,11 +1340,8 @@ footer {
     font-weight: 700;
     margin: 1.3em 0 0 50%;
   } */
-  h4{
-    color: #000;
-    font-size: 1.2em;
-    margin: 0 0 0 0;
-    text-align: center;
+  h4{ /*This is targeting the Blog link which is fine since it may not stay.*/
+
   }
   .topEho{
     font-weight: 400;
@@ -1350,7 +1361,6 @@ footer {
 
   }
 }
-
 /*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1141px to 1280px
@@ -1477,7 +1487,7 @@ footer {
   }
   .topFloor + p{
     float: right;
-    margin: -5em 18% 0 0;
+    margin: -6.4em 18% 0 0;
     width: 25%;
   }
   /*************targeting basementscene*/
@@ -1503,7 +1513,7 @@ footer {
   img + p {
     float: left;
     font-size: 1.2em;
-    margin: -11em 6% 0 22%;
+    margin: -11.8em 6% 0 22%;
     width: 25%;
   }
   .blogButton{
@@ -1980,7 +1990,7 @@ footer {
       width: 35%;
       position: absolute;
       left:0.1%;
-      top:118em;
+      top:146em;
       z-index: 100;
     }
     .hidden{
@@ -2402,7 +2412,7 @@ footer {
     width: 35%;
     position: absolute;
     left:0.1%;
-    top:118em;
+    top:132em;
     z-index: 100;
   }
   .hidden{
@@ -2822,7 +2832,7 @@ footer {
     width: 35%;
     position: absolute;
     left:0.1%;
-    top:118em;
+    top:122em;
     z-index: 100;
   }
   .hidden{
